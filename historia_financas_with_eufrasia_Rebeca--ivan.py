@@ -109,6 +109,6 @@ for data, detalhe in eventos.items():
         command=lambda d=detalhe: mostrar_fato(d),
     )
     btn.pack(fill="x", padx=40, pady=6)
-
+ 
 # 7. Loop Principal
 janela.mainloop()
